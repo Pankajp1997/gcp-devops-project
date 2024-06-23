@@ -14,6 +14,7 @@ steps:
       - --location=us-central1-c
       - --cluster=gcp-devops-flask
       - --namespace=gcp-devops-prod
+      - --timeout=600s
 
 options:
   logging: CLOUD_LOGGING_ONLY
