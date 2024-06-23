@@ -3,3 +3,5 @@ steps:
   args: ['build','-t','gcr.io/$PROJECT_ID/gcpdevops','.']  # Build the Docker image. Dont forget to write '.'
 images:
   - 'gcr.io/$PROJECT_ID/gcpdevops'                      # Uplods the Docker image  Registry 
+options:
+  logging: CLOUD_LOGGING_ONLY
