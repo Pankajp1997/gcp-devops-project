@@ -5,3 +5,5 @@ images:
   - 'gcr.io/$PROJECT_ID/gcpdevops'                      # Uplods the Docker image  Registry 
 options:
   logging: CLOUD_LOGGING_ONLY
+
+ 
