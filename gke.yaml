@@ -2,10 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gcp-devops-gke
-  labels:
-    app: gcp
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: gcp
@@ -16,6 +14,9 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/quick-ray-390708/gcpdevops
+        image: gcr.io/kodekloud-gcp-training/test-gcpdevops:latest
         ports:
         - containerPort: 5000
+        env:
+          - name: PORT
+            value: "5000"
