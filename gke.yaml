@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/kodekloud-gcp-training/gcpdevops
+        image: gcr.io/quick-ray-390708/gcpdevops
         ports:
         - containerPort: 5000
