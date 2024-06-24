@@ -15,6 +15,6 @@ steps:
       - --cluster=gcp-devops-flask
       - --namespace=gcp-devops-prod
 options:
-  logging: NONE
+  logging: CLOUD_LOGGING_ONLY
 
 
