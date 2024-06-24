@@ -14,6 +14,7 @@ steps:
       - --location=us-central1-c
       - --cluster=gcp-devops-flask
       - --namespace=gcp-devops-prod
-      
+    options:
+      defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET  
 
 
