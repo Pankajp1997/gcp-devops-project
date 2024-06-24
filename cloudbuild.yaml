@@ -14,7 +14,7 @@ steps:
       - --location=us-central1-c
       - --cluster=gcp-devops-flask
       - --namespace=gcp-devops-prod
-  options:
-    logging: NONE
+options:
+  logging: NONE
 
 
